@@ -18,7 +18,7 @@ namespace _20263RecetaAPI.Controllers
 
         public CommentsController(IMapper mapper, ApplicationDbContext contex)
         {
-            this.mapper = mapper;
+            this.mapper = mapper; 
             this.context = contex;
 
 
